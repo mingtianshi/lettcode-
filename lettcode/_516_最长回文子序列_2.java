@@ -23,3 +23,9 @@ public:
     return dp[0][n - 1];
 }
 };
+class Solution {
+    public int longestPalindromeSubseq(String s) {
+    	int n = s.length();
+    	vector
+    }
+}

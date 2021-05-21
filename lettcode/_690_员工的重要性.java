@@ -2,12 +2,12 @@
 //https://leetcode-cn.com/problems/employee-importance/
 /*
 // Definition for Employee.
+*/
 class Employee {
     public int id;
     public int importance;
     public List<Integer> subordinates;
 };
-*/
 
 class Solution {
     Map<Integer,Employee> map = new HashMap<Integer,Employee>();

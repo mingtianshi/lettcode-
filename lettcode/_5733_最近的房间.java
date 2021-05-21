@@ -9,7 +9,7 @@ class Solution {
             q[i][2]=i;
         }
 
-        Arrays.sort(q,(x,y)->y[1]-x[1]);
+        Arrays.sort(q,(x,y) -> y[1]-x[1]);
         Arrays.sort(rooms,(x,y)->y[1]-x[1]);
         
         TreeSet<Integer> set=new TreeSet<>();
